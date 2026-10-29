@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local vector database
+qdrant_data/
+qdrant_storage/
+
+# Runtime files and logs
+.runtime/
+logs/
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+
+# IDE and OS files
+.idea/
+.DS_Store
+Thumbs.db
